@@ -1,2 +1,2 @@
-# tmc-tp-especial
-Trabajo practico de entrega de Taller de matematica computacional. 3er parcialito
+# Meliendrez, Agustín - TMC - TP Especial
+Esto contiene el Trabajo practico de entrega de Taller de matematica computacional.
