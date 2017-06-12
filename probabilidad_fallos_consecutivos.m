@@ -19,12 +19,12 @@ function [probabilidad, todas_las_probabilidades] = probabilidad_fallos_consecut
     prueba1= my_mex_service(36626800);
     prueba2= my_mex_service(36626800);
       
-    % Actualizo la cantidad de tiradas
+    % Actualizo la cantidad de experimentos realizados
     cantidad_experimentos = cantidad_experimentos+ 1;
     
-    % Se comprueba si cumple la condicion buscada
+    % Se comprueba si cumple la condicion buscada. 
     if ((prueba1==0)&&(prueba2)==0)
-      casos_favorables = casos_favorables + 1;
+      casos_favorables = casos_favorables + 1; %si se cumple aumento casos favorables
     end
     
     % Calculo la probabilidad actual
